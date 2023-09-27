@@ -8,12 +8,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var titleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+        titleLabel.text = "Rock Paper Scissors"
+
     }
-
-
+    @IBAction func playButtonTapped() {
+        //Add functionality
+    }
+    @IBAction func rockButtonTapped() {
+        //Add functionality
+    }
+    @IBAction func paperButtonTapped() {
+        //Add functionality
+    }
+    @IBAction func scissorsButtonTapped() {
+        //Add functionality
+    }
 }
+
 
